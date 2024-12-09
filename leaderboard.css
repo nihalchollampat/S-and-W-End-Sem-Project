@@ -122,27 +122,15 @@ input{
     /* border: 5px solid lightgray; */
     /* border-radius: 10px; */
 }
-th{
-    font-size: 40px;
-}
-table,th,td{
-    border: 3px solid lightgray;
-    border-collapse: collapse;
-    padding: 10px;
-    width: 100%;
-}
-td{
-    font-size: 30px;
-}
 #addp:hover{
     background-color: var(--back);
 }
 footer{
     text-align: center;
+    width: 93vw;
     padding: 10px;
     background-color: lightgreen;
     bottom: 0;
-    width: 93vw;
     position: fixed;
 }
 .Participant{
