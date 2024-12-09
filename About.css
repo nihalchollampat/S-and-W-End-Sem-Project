@@ -44,35 +44,6 @@ nav ul li:hover {
     color: var(--secondary);
 }
 
-/* nav button {
-    padding: 0.5rem;
-    border-radius: 2rem;
-    margin: 1rem;
-    border: none;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-nav #Signup {
-    background: var(--secondary);
-    color: var(--primary);
-}
-
-nav #Signin {
-    background-color: var(--back);
-    color: var(--primary);
-}
-
-nav #Signup:hover {
-    background-color: var(--back);
-    color: black;
-}
-
-nav #Signin:hover {
-    background-color: var(--secondary);
-    color: white;
- } */
-
 .container {
     height: 80rem;
     width: 92vw;
@@ -99,19 +70,6 @@ header {
 header h1 {
     color: #c62825;
 }
-
-/* nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-nav ul li a {
-    text-decoration: none;
-    color: #526e48; 
-} */
 main {
     padding: 20px;
 }
