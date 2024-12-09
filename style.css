@@ -1,1 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+:root {
+    --primary: #4c5f35;
+    --secondary: #94c18f;
+    --accent: #49884b;
+    --back: #e2f5c6;
+    --text: #0d1109;
+    --extra1: hsl(87, 28%, 49%);
+}
+
+body{
+    background-color: #c2ffc7;
+}
+nav {
+    background-color: var(--accent);
+    left: 0;
+    position: fixed;
+    height: 100vh;
+    width: 8vw;
+    display: flex;
+    align-items: center;
+    z-index: 5;
+}
+
+nav img {
+    height: 5rem;
+    width: 5rem;
+}
+
+nav ul li {
+    padding: 1rem;
+    color: whitesmoke;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+nav ul li:hover {
+    color: var(--secondary);
+}
+
+nav button {
+    padding: 0.5rem;
+    border-radius: 2rem;
+    margin: 1rem;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav #Signup {
+    background: var(--secondary);
+    color: var(--primary);
+}
+
+nav #Signin {
+    background-color: var(--back);
+    color: var(--primary);
+}
+
+nav #Signup:hover {
+    background-color: var(--back);
+    color: black;
+}
+
+nav #Signin:hover {
+    background-color: var(--secondary);
+    color: white;
+
+}
+.container{
+    height: 80rem;
+    width: 92vw;
+    position: absolute;
+    right: 0;
+    overflow-x: hidden;
+}
+
+section{
+    width: 100%;
+    height: 50rem;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    /* overflow-y: hidden; */
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    animation: slide 16s linear 0s infinite forwards;
+}
+
+@keyframes slide {
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+img{
+    width: 100%;
+    scroll-snap-align: center;
+
+}
+
+.cover{
+    background-color: rgba(0, 0, 0,0.6);
+    height: 50rem;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    width: 23%;
+    height: 35rem;
+    /* background-color: blanchedalmond; */
+    overflow: hidden;
+}
+.txt{
+    letter-spacing: 0.5rem;
+    border-right: 0.2rem solid var(--back);
+}
+span{
+    -webkit-text-stroke: 2px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color:var(--back);
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 55rem;
+}
+.card{
+    height: 25rem;
+    width: 25rem;
+    background-color: var(--back);
+    margin: 2rem;
+    text-align: center;
+    overflow: scroll;
+}
+
+.head{
+    height: 5rem;
+    background-color: #49884b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card ul{
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    line-height: 3.3rem;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.25s;
+    box-shadow: 2rem 2rem 1.5rem lightgreen;
+    cursor: pointer;
+}
+.showimg{
+    position: absolute;
+    z-index: 2;
+    top:85rem;
+    right: 0;
+    width: 92vw;
+}
+.cove{
+    background-color: rgba(13, 17, 9,0.5);
+    height: 37.5rem;
+    position: absolute;
+    z-index: 2;
+    top: 84.8rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.cove h1{
+    margin-left: 10rem;
+}
+.but{
+    padding: 1rem;
+    border-radius: 2rem;
+    margin: 1rem;
+    border: none;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    background: var(--secondary);
+    color: var(--primary);
+}
+.but:hover{
+    transform: scale(1.1);
+    border: #4c5f35 0.5rem solid;
+    transition: 0.5s;
+    margin-left: 1rem;
+}
