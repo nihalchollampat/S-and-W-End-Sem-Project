@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2;
+    color: #333;
+}
+:root {
+    --primary: #4c5f35;
+    --secondary: #94c18f;
+    --accent: #49884b;
+    --back: #e2f5c6;
+    --text: #0d1109;
+    --extra1: hsl(87, 28%, 49%);
+}
+
+body{
+    background-color: #c2ffc7;
+}
+nav {
+    background-color: var(--accent);
+    left: 0;
+    position: fixed;
+    height: 100vh;
+    width: 8vw;
+    display: flex;
+    align-items: center;
+    z-index: 5;
+}
+
+
+nav img {
+    height: 5rem;
+    width: 5rem;
+}
+
+nav ul li {
+    padding: 1rem;
+    color: whitesmoke;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+nav ul li:hover {
+    color: var(--secondary);
+}
+
+.container{
+    height: 80rem;
+    width: 92vw;
+    position: absolute;
+    right: 0;
+    overflow-x: hidden;
+}
+header {
+    width: 100%;
+    height: 20vh;
+    background-color: #4CAF50;
+    color: black;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1rem;
+    background-color: #C2FFC7;
+}
+
+.problem h2 {
+    color: #4CAF50;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    background-color: #C2FFC7;
+
+}
+
+.problem p {
+    font-size: 1.1rem;
+}
+
+.problem-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    margin: 0 10%;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.problem {
+    flex: 1 1 calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 5px solid #4CAF50;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.problem:hover {
+    transform: scale(1.05);
+}
+
+.problem::after {
+    bottom: 15px;
+    left: 15px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    transition: opacity 0.3s ease;
+    position: absolute;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+.problem-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    margin: 0 10%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.problem {
+    flex: 1 1 calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 5px solid #4CAF50;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
