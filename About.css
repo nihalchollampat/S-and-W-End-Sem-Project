@@ -12,6 +12,10 @@
     --extra1: hsl(87, 28%, 49%);
 }
 
+a{
+    text-decoration: none;
+}
+
 header h1{
     font-size: 5rem;
 }

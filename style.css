@@ -13,6 +13,9 @@
     --extra1: hsl(87, 28%, 49%);
 }
 
+a{
+    text-decoration: none;
+}
 body{
     background-color: #c2ffc7;
     font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;

@@ -32,6 +32,8 @@ nav {
     z-index: 5;
 }
 
+a{text-decoration: none;}
+
 
 nav img {
     height: 5rem;
