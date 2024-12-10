@@ -12,6 +12,10 @@ body {
     margin: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 :root {
     --primary: #4c5f35;
     --secondary: #94c18f;
